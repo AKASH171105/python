@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)http://118.185.187.137/moodle/mod/quiz/review.php?attempt=153573&cmid=1389 -->
+<html dir="ltr" lang="en" xml:lang="en" class="yui3-js-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>WEEK-08-CODING-Tuple-Set: Attempt review</title>
+    <link rel="shortcut icon" href="http://118.185.187.137/moodle/theme/image.php/classic/theme/1688550504/favicon">
+    
+<meta name="keywords" content="moodle, WEEK-08-CODING-Tuple-Set: Attempt review">
+<link rel="stylesheet" type="text/css" href="./week8 coding_files/combo"><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./week8 coding_files/styles.php">
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/118.185.187.137\/moodle","homeurl":{},"sesskey":"NyraYr2Mas","sessiontimeout":"28800","sessiontimeoutwarning":"1200","themerev":"1688550504","slasharguments":1,"theme":"classic","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1688442432","admin":"admin","svgicons":true,"usertimezone":"Asia\/Kolkata","courseId":160,"courseContextId":31139,"contextid":31157,"contextInstanceId":1389,"langrev":1688442432,"templaterev":"1688442432"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"http:\/\/118.185.187.137\/moodle\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/118.185.187.137\/moodle\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/118.185.187.137\/moodle\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/118.185.187.137\/moodle\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/118.185.187.137\/moodle\/theme\/yui_combo.php?m\/1688442432\/","combine":true,"comboBase":"http:\/\/118.185.187.137\/moodle\/theme\/yui_combo.php?","ext":false,"root":"m\/1688442432\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-beautify":{},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/118.185.187.137\/moodle\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/118.185.187.137\/moodle\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1688442432\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/118.185.187.137\/moodle\/lib\/javascript.php\/1688442432\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"http:\/\/118.185.187.137\/moodle\/lib\/javascript.php\/1688442432\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.9\/MathJax.js?delayStartupUntil=configured"},"core_question_flags":{"name":"core_question_flags","fullpath":"http:\/\/118.185.187.137\/moodle\/lib\/javascript.php\/1688442432\/question\/flags.js","requires":["base","dom","event-delegate","io-base"]},"core_question_engine":{"name":"core_question_engine","fullpath":"http:\/\/118.185.187.137\/moodle\/lib\/javascript.php\/1688442432\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"http:\/\/118.185.187.137\/moodle\/lib\/javascript.php\/1688442432\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="page-mod-quiz-review" class="format-topics  path-mod path-mod-quiz chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam 118-185-187-137--moodle pagelayout-secure course-160 context-31157 cmid-1389 cm-type-quiz category-1  jsenabled">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="http://118.185.187.137/moodle/mod/quiz/review.php?attempt=153573&amp;cmid=1389#maincontent">Skip to main content</a>
+</div><script src="./week8 coding_files/javascript.php"></script>
+<script src="./week8 coding_files/combo(1)"></script><script src="./week8 coding_files/javascript(1).php"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav class="fixed-top navbar navbar-bootswatch navbar-expand moodle-has-zindex">
+            <span class="logo d-none d-sm-inline">
+                <img src="./week8 coding_files/REC-Logo.png" alt="REC-OCATS-1">
+            </span>
+        <span class="site-name d-none d-md-inline">REC-OCATS-1</span>
+    
+    </nav>
+
+    <div id="page" class="container-fluid">
+
+        <div id="page-header" class="row">
+            <div class="col-12 py-3">
+                <div class="page-context-header">
+                    <div class="page-header-headings">
+                        <h1>CS23336-Introduction to Python Programming</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-content" class="row  blocks-pre  ">
+            <div id="region-main-box" class="region-main">
+                <section id="region-main" aria-label="Content">
+                    <div class="card">
+                        <div class="card-body">
+                            <span class="notifications" id="user-notifications"></span>
+                            <div role="main"><table class="generaltable generalbox quizreviewsummary"><tbody><tr><th class="cell" scope="row">Started on</th><td class="cell">Monday, 21 October 2024, 8:52 PM</td></tr><tr><th class="cell" scope="row">State</th><td class="cell">Finished</td></tr><tr><th class="cell" scope="row">Completed on</th><td class="cell">Monday, 21 October 2024, 10:27 PM</td></tr><tr><th class="cell" scope="row">Time taken</th><td class="cell">1 hour 35 mins</td></tr><tr><th class="cell" scope="row">Marks</th><td class="cell">10.00/10.00</td></tr><tr><th class="cell" scope="row">Grade</th><td class="cell"><b>100.00</b> out of 100.00</td></tr></tbody></table><form action="http://118.185.187.137/moodle/mod/quiz/review.php?attempt=153573&amp;cmid=1389" method="post" class="questionflagsaveform"><div><div id="question-154047-5" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">1</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:5_:flagged" value="0"><input type="hidden" value="qaid=1380582&amp;qubaid=154047&amp;qid=411428&amp;slot=5&amp;checksum=b13de803bcbf72347e797d02c73fb42f&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:5_:flaggedcheckbox" name="q154047:5_:flagged" value="1"><label id="q154047:5_:flaggedlabel" for="q154047:5_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:5_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:5_:sequencecheck" value="11"><p dir="ltr" style="text-align: left;"></p><p dir="ltr">Given a tuple and a positive integer k, the task is to find the count of distinct pairs in the tuple whose sum is equal to&nbsp;<strong>K</strong>.<br></p><p dir="ltr"></p><p><strong>Examples:</strong></p><div id="m_-5043579712285040853gmail-GFG_AD_gfg_mobile_336x280"></div><blockquote><p><strong>Input:</strong>&nbsp;t = (5, 6, 5, 7, 7, 8 ), K = 13&nbsp;<br><strong>Output:</strong>&nbsp;2&nbsp;<br><strong>Explanation:</strong>&nbsp;<br>Pairs with sum K( = 13) are&nbsp; {(5, 8), (6, 7), (6, 7)}.&nbsp;<br>Therefore, distinct pairs with sum K( = 13) are { (5, 8), (6, 7) }.&nbsp;<br>Therefore, the required output is 2.</p></blockquote><br><br><p></p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Input</th>
+<th class="header c1 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0">
+<td class="cell c0" style=""><pre class="tablecell">1,2,1,2,5
+3</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">1</pre></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">1,2
+0</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">0</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:5_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><textarea class="coderunner-answer edit_code" name="q154047:5_answer" id="id_q154047:5_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="" readonly="">a=input()
+b=int(input())
+a=set(a)
+a.remove(',')
+a=tuple(a)
+res=0
+for i in a:
+    for j in range(a.index(i),len(a)):
+        if int(i)+int(a[j])==b:
+           res+=1
+           
+print(res)</textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Input</th>
+<th class="header c2" style="" scope="col">Expected</th>
+<th class="header c3" style="" scope="col">Got</th>
+<td class="header c4 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">5,6,5,7,7,8
+13</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">2</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">2</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">1,2,1,2,5
+3</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">1,2
+0</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">0</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">0</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><div id="question-154047-10" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">2</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:10_:flagged" value="0"><input type="hidden" value="qaid=1380587&amp;qubaid=154047&amp;qid=411431&amp;slot=10&amp;checksum=457960175539b511b854fc137be546e9&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:10_:flaggedcheckbox" name="q154047:10_:flagged" value="1"><label id="q154047:10_:flaggedlabel" for="q154047:10_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:10_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:10_:sequencecheck" value="3"><p dir="ltr" style="text-align: left;"></p>
+<p dir="ltr">Write a program to eliminate the common elements in the given 2 arrays and print only the non-repeating</p>
+<p dir="ltr">elements and the total number of such non-repeating elements.</p>
+<p dir="ltr">Input Format:</p>
+<p dir="ltr">The first line contains space-separated values, denoting the size of the two arrays in integer format respectively.</p>
+<p dir="ltr">The next two lines contain the space-separated integer arrays to be compared.</p>
+<p dir="ltr"><a title="SAMPLE" href="https://www.rajalakshmicolleges.net/moodle/mod/quiz/view.php?id=5127">Sample</a>&nbsp;Input:</p>
+<p dir="ltr">5 4</p>
+<p dir="ltr">1 2 8 6 5</p>
+<p dir="ltr">2 6 8 10</p>
+<p dir="ltr"><a title="SAMPLE" href="https://www.rajalakshmicolleges.net/moodle/mod/quiz/view.php?id=5127">Sample</a>&nbsp;Output:</p>
+<p dir="ltr">1 5 10</p>
+<p dir="ltr">3</p>
+<p><a title="SAMPLE" href="https://www.rajalakshmicolleges.net/moodle/mod/quiz/view.php?id=5127">Sample</a>&nbsp;&nbsp;Input:&nbsp;</p>
+<p dir="ltr">5 5</p>
+<p dir="ltr">1 2 3 4 5</p>
+<p dir="ltr">1 2 3 4 5</p>
+<p dir="ltr"><a title="SAMPLE" href="https://www.rajalakshmicolleges.net/moodle/mod/quiz/view.php?id=5127">Sample</a>&nbsp;Output:</p>
+<p dir="ltr">NO SUCH ELEMENTS</p>
+<p><br><br></p>
+<p></p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Input</th>
+<th class="header c1 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0">
+<td class="cell c0" style=""><pre class="tablecell">5 4
+1 2 8 6 5
+2 6 8 10</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">1 5 10
+3</pre></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">5 5
+1 2 3 4 5
+1 2 3 4 5</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">NO SUCH ELEMENTS</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:10_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><textarea class="coderunner-answer edit_code" name="q154047:10_answer" id="id_q154047:10_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="" readonly="">import re
+a=input()
+b=input()
+c=input()
+b=(re.findall(r'[0-9]+',b))
+c=(re.findall(r'[0-9]+',c))
+b=set(b)
+c=set(c)
+d=b^c
+b={0}
+for i in d:
+    b.add(int(i))
+b.discard(0)
+b=list(b)
+b.sort()
+if len(b)==0:
+    print("NO SUCH ELEMENTS")
+else:
+    print(*b)
+    print(len(b))</textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Input</th>
+<th class="header c2" style="" scope="col">Expected</th>
+<th class="header c3" style="" scope="col">Got</th>
+<td class="header c4 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">5 4
+1 2 8 6 5
+2 6 8 10</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">1 5 10
+3</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">1 5 10
+3</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">3 3
+10 10 10
+10 11 12</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">11 12
+2</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">11 12
+2</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">5 5
+1 2 3 4 5
+1 2 3 4 5</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">NO SUCH ELEMENTS</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">NO SUCH ELEMENTS</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><div id="question-154047-9" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">3</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:9_:flagged" value="0"><input type="hidden" value="qaid=1380586&amp;qubaid=154047&amp;qid=411427&amp;slot=9&amp;checksum=e11709a77ef606203ea4d496bf2c8a2c&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:9_:flaggedcheckbox" name="q154047:9_:flagged" value="1"><label id="q154047:9_:flaggedlabel" for="q154047:9_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:9_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:9_:sequencecheck" value="3"><p dir="ltr" style="text-align: left;"></p><p dir="ltr">Coders here is a simple task for you, Given string str. Your task is to check whether it is a binary string or not by using python set.</p><p dir="ltr">Examples:&nbsp;&nbsp;<br></p><p dir="ltr">Input: str = "01010101010"<br></p><p dir="ltr">Output: Yes</p><p dir="ltr"><br></p><p dir="ltr">Input: str = "REC101"</p><p dir="ltr">Output: No</p><br><p></p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Input</th>
+<th class="header c1 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0">
+<td class="cell c0" style=""><pre class="tablecell">01010101010</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">Yes</pre></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">010101 10101</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">No</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:9_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><textarea class="coderunner-answer edit_code" name="q154047:9_answer" id="id_q154047:9_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="" readonly="">a=input()
+b=set(a)
+c={'1','0'}
+if c==b:
+    print("Yes")
+else:
+    print("No")
+    </textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Input</th>
+<th class="header c2" style="" scope="col">Expected</th>
+<th class="header c3" style="" scope="col">Got</th>
+<td class="header c4 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">01010101010</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">Yes</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">Yes</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">REC123</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">No</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">No</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">010101 10101</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">No</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">No</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><div id="question-154047-6" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">4</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:6_:flagged" value="0"><input type="hidden" value="qaid=1380583&amp;qubaid=154047&amp;qid=411429&amp;slot=6&amp;checksum=49e1782fe45fa415f0273a63f352b3f4&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:6_:flaggedcheckbox" name="q154047:6_:flagged" value="1"><label id="q154047:6_:flaggedlabel" for="q154047:6_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:6_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:6_:sequencecheck" value="3"><p dir="ltr" style="text-align: left;"></p><p>The&nbsp;<strong>DNA sequence</strong>&nbsp;is composed of a series of nucleotides abbreviated as&nbsp;<code>'A'</code>,&nbsp;<code>'C'</code>,&nbsp;<code>'G'</code>, and&nbsp;<code>'T'</code>.</p><ul><li>For example,&nbsp;<code>"ACGAATTCCG"</code>&nbsp;is a&nbsp;<strong>DNA sequence</strong>.</li></ul><p>When studying&nbsp;<strong>DNA</strong>, it is useful to identify repeated sequences within the DNA.</p><p>Given a string&nbsp;<code>s</code>&nbsp;that represents a&nbsp;<strong>DNA sequence</strong>, return all the&nbsp;<strong><code>10</code>-letter-long</strong>&nbsp;sequences (substrings) that occur more than once in a DNA molecule. You may return the answer in&nbsp;<strong>any order</strong>.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre><strong>Input:</strong> s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+<strong>Output:</strong> ["AAAAACCCCC","CCCCCAAAAA"]
+</pre><p><strong>Example 2:</strong></p><pre><strong>Input:</strong> s = "AAAAAAAAAAAAA"
+<strong>Output:</strong> ["AAAAAAAAAA"]
+</pre><p>&nbsp;</p><br><br><p></p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Input</th>
+<th class="header c1 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">AAAAACCCCC
+CCCCCAAAAA</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:6_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><textarea class="coderunner-answer edit_code" name="q154047:6_answer" id="id_q154047:6_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="" readonly="">s=input()
+n=set()
+p=set()
+for i in range(len(s)-9):
+    c=s[i:i+10]
+    if c in n:
+        p.add(c)
+    else:
+        n.add(c)
+s=list(p)
+for i in range(len(s)-1,-1,-1):
+    print(s[i])</textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Input</th>
+<th class="header c2" style="" scope="col">Expected</th>
+<th class="header c3" style="" scope="col">Got</th>
+<td class="header c4 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">AAAAACCCCC
+CCCCCAAAAA</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">AAAAACCCCC
+CCCCCAAAAA</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">AAAAAAAAAAAAA</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">AAAAAAAAAA</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">AAAAAAAAAA</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><div id="question-154047-1" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">5</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:1_:flagged" value="0"><input type="hidden" value="qaid=1380578&amp;qubaid=154047&amp;qid=411433&amp;slot=1&amp;checksum=6e66e64616dd801beb98c40eadb7d857&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:1_:flaggedcheckbox" name="q154047:1_:flagged" value="1"><label id="q154047:1_:flaggedlabel" for="q154047:1_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:1_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:1_:sequencecheck" value="4"><p dir="ltr" style="text-align: left;"></p><p>Given an array of strings&nbsp;<code>words</code>, return&nbsp;<em>the words that can be typed using letters of the alphabet on only one row of American keyboard like the image below</em>.</p><p>In the&nbsp;<strong>American keyboard</strong>:</p><ul><li>the first row consists of the characters&nbsp;<code>"qwertyuiop"</code>,</li><li>the second row consists of the characters&nbsp;<code>"asdfghjkl"</code>, and</li><li>the third row consists of the characters&nbsp;<code>"zxcvbnm"</code>.</li></ul><img alt="" src="./week8 coding_files/keyboard.png"><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre><strong>Input:</strong> words = ["Hello","Alaska","Dad","Peace"]
+<strong>Output:</strong> ["Alaska","Dad"]
+</pre><p><strong>Example 2:</strong></p><pre><strong>Input:</strong> words = ["omk"]
+<strong>Output:</strong> []
+</pre><p><strong>Example 3:</strong></p><pre><strong>Input:</strong> words = ["adsdf","sfd"]
+<strong>Output:</strong> ["adsdf","sfd"]</pre><br><br><p></p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Input</th>
+<th class="header c1 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0">
+<td class="cell c0" style=""><pre class="tablecell">4
+Hello
+Alaska
+Dad
+Peace</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">Alaska
+Dad</pre></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">2
+adsfd
+afd</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">adsfd
+afd</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:1_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><textarea class="coderunner-answer edit_code" name="q154047:1_answer" id="id_q154047:1_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="" readonly="">def function(word,rows):
+    l=word.lower()
+    for row in rows:
+        if all(char in row for char in l):
+            return True
+    return False
+def find(words):
+    rows=["qwertyuiop","asdfghjkl","zxcvbnm"]
+    res=[]
+    for word in words:
+        if function(word,rows):
+            res.append(word)
+    return res
+n=int(input())
+a=[input() for _ in range(n)]
+b=find(a)
+if b:
+    for word in b:
+        print(word)
+else:
+    print("No words")</textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Input</th>
+<th class="header c2" style="" scope="col">Expected</th>
+<th class="header c3" style="" scope="col">Got</th>
+<td class="header c4 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">4
+Hello
+Alaska
+Dad
+Peace</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">Alaska
+Dad</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">Alaska
+Dad</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">1
+omk</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">No words</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">No words</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">2
+adsfd
+afd</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">adsfd
+afd</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">adsfd
+afd</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><div id="question-154047-8" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">6</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:8_:flagged" value="0"><input type="hidden" value="qaid=1380585&amp;qubaid=154047&amp;qid=411425&amp;slot=8&amp;checksum=d7a3495e47e51ac95fb283f8e8824c3e&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:8_:flaggedcheckbox" name="q154047:8_:flagged" value="1"><label id="q154047:8_:flaggedlabel" for="q154047:8_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:8_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:8_:sequencecheck" value="3"><p dir="ltr" style="text-align: left;"></p><p><span lang="EN-IN">Program to print all the distinct elements in an array. Distinct elements are nothing but the unique (non-duplicate) elements present in the given array.</span></p><p>Input Format:<br></p><p>First line take an Integer input from stdin which is array length n.<br></p><p><span lang="EN-IN">Second line take n Integers which is inputs of array.</span></p><p>Output Format:<br></p><p>Print the Distinct Elements in Array in single line which is space Separated<br></p><p>Example Input:<br></p><p>5<br></p><p><span lang="EN-IN">1 2 2 3 4</span></p><p>Output:<br></p><p>1 2 3 4<br></p><p>Example Input:<br></p><p>6<br></p><p><span lang="EN-IN">1 1 2 2 3 3</span></p><p>Output:<br></p><p>1 2 3<br></p><br><br><p></p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Input</th>
+<th class="header c1 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">5
+1
+2
+2
+3
+4</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">1 2 3 4</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:8_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><textarea class="coderunner-answer edit_code" name="q154047:8_answer" id="id_q154047:8_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="" readonly="">a=int(input())
+b=[]
+for i in range(a):
+    f=int(input())
+    b.append(f)
+c=set(b)
+b=tuple(c)
+print(*b)</textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Input</th>
+<th class="header c2" style="" scope="col">Expected</th>
+<th class="header c3" style="" scope="col">Got</th>
+<td class="header c4 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">5
+1
+2
+2
+3
+4</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">1 2 3 4</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">1 2 3 4</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">6
+1
+1
+2
+2
+3
+3</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">1 2 3</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">1 2 3</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">5
+11
+22
+11
+22
+11</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">11 22</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">11 22</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">10
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">1 2 3 4 5</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">1 2 3 4 5</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><div id="question-154047-4" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">7</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:4_:flagged" value="0"><input type="hidden" value="qaid=1380581&amp;qubaid=154047&amp;qid=411432&amp;slot=4&amp;checksum=7b3231c1d4765068caab3ff1b5969dd1&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:4_:flaggedcheckbox" name="q154047:4_:flagged" value="1"><label id="q154047:4_:flaggedlabel" for="q154047:4_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:4_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:4_:sequencecheck" value="3"><p dir="ltr" style="text-align: left;"></p><p dir="ltr">There is a malfunctioning keyboard where some letter keys do not work. All other keys on the keyboard work properly.</p><p dir="ltr">Given a string text of words separated by a single space (no leading or trailing spaces) and a string brokenLetters of all distinct letter keys that are broken, return the number of words in text you can fully type using this keyboard.<br></p><p dir="ltr">Example 1:<br></p><p dir="ltr">Input: text = "hello world", brokenLetters = "ad"<br></p><p dir="ltr">Output:&nbsp;</p><p dir="ltr">1</p><p dir="ltr">Explanation: We cannot type "world" because the 'd' key is broken.</p><br><br><p></p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Input</th>
+<th class="header c1 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0">
+<td class="cell c0" style=""><pre class="tablecell">hello world
+ad</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">1</pre></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">Faculty Upskilling in Python Programming
+ak</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">2</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:4_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><textarea class="coderunner-answer edit_code" name="q154047:4_answer" id="id_q154047:4_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="" readonly="">import re
+a=input()
+a=a.lower()
+b=input()
+b=b.lower()
+c=re.findall(r'[a-z]+',a)
+d=re.findall(r'[a-z]',b)
+res=0
+for i in d:
+    for j in c:
+        if i not in j:
+            pass
+        else:
+            c.remove(j)
+print(len(c))</textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Input</th>
+<th class="header c2" style="" scope="col">Expected</th>
+<th class="header c3" style="" scope="col">Got</th>
+<td class="header c4 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">hello world
+ad</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">Welcome to REC
+e</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">Faculty Upskilling in Python Programming
+ak</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">2</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">2</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><div id="question-154047-2" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">8</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:2_:flagged" value="0"><input type="hidden" value="qaid=1380579&amp;qubaid=154047&amp;qid=411430&amp;slot=2&amp;checksum=40130242a6e5685d999e59bb05439d8b&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:2_:flaggedcheckbox" name="q154047:2_:flagged" value="1"><label id="q154047:2_:flaggedlabel" for="q154047:2_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:2_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:2_:sequencecheck" value="3"><p dir="ltr" style="text-align: left;"></p><p><span style="font-size: 0.9375rem;">Given an array of integers&nbsp;</span><code>nums</code><span style="font-size: 0.9375rem;">&nbsp;containing&nbsp;</span><code>n + 1</code><span style="font-size: 0.9375rem;">&nbsp;integers where each integer is in the range&nbsp;</span><code>[1, n]</code><span style="font-size: 0.9375rem;">&nbsp;inclusive.There is only&nbsp;</span><strong style="font-size: 0.9375rem;">one repeated number</strong><span style="font-size: 0.9375rem;">&nbsp;in&nbsp;</span><code>nums</code><span style="font-size: 0.9375rem;">, return&nbsp;</span><em style="font-size: 0.9375rem;">this&nbsp;repeated&nbsp;number</em><span style="font-size: 0.9375rem;">. Solve the problem using set.</span><br></p><p><strong>Example 1:</strong></p><pre><strong>Input:</strong> nums = [1,3,4,2,2]</pre><pre><strong>Output:</strong> 2</pre><p><strong>Example 2:</strong></p><pre><strong>Input:</strong> nums = [3,1,3,4,2]</pre><pre><strong>Output:</strong> 3</pre><br><br><p></p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Input</th>
+<th class="header c1 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">1 3 4 4 2</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">4</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:2_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><textarea class="coderunner-answer edit_code" name="q154047:2_answer" id="id_q154047:2_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="" readonly="">a=input()
+a=tuple(a)
+n=tuple(i for i in a if i.strip())
+b=set(a)
+for i in b:
+    if n.count(i)&gt;=2:
+        print(i)
+        break</textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Input</th>
+<th class="header c2" style="" scope="col">Expected</th>
+<th class="header c3" style="" scope="col">Got</th>
+<td class="header c4 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">1 3 4 4 2</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">4</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">4</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">1 2 2 3 4 5 6 7</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">2</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">2</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><div id="question-154047-3" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">9</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:3_:flagged" value="0"><input type="hidden" value="qaid=1380580&amp;qubaid=154047&amp;qid=411426&amp;slot=3&amp;checksum=b2261c0e8c961907e28396ad3465a500&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:3_:flaggedcheckbox" name="q154047:3_:flagged" value="1"><label id="q154047:3_:flaggedlabel" for="q154047:3_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:3_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:3_:sequencecheck" value="4"><p dir="ltr" style="text-align: left;"></p><h1 itemscope="" itemtype="http://schema.org/WebPageElement/Heading" id="h_one">Check if a set is a subset of another set.</h1><p>Example:</p><p>Sample Input1:</p><p></p><p dir="ltr">mango apple<br></p><p dir="ltr">mango orange</p><p dir="ltr">mango</p><p dir="ltr"></p>output1:<p></p><p dir="ltr">yes</p><p dir="ltr">set3 is subset of set1 and set2</p><p dir="ltr"><br></p><p dir="ltr"></p><pre>input2:</pre><pre>mango orange</pre><pre>banana orange</pre><pre>grapes</pre><pre>output2:</pre><p></p><p dir="ltr">no</p><p dir="ltr"><img src="./week8 coding_files/image.png" alt="" role="presentation"></p><br><p></p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Test</th>
+<th class="header c1" style="" scope="col">Input</th>
+<th class="header c2 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0">
+<td class="cell c0" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c1" style=""><pre class="tablecell">mango apple
+mango orange
+mango</pre></td>
+<td class="cell c2 lastcol" style=""><pre class="tablecell">yes
+set3 is subset of set1 and set2</pre></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">2</pre></td>
+<td class="cell c1" style=""><pre class="tablecell">mango orange
+banana orange
+grapes</pre></td>
+<td class="cell c2 lastcol" style=""><pre class="tablecell">No</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:3_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><textarea class="coderunner-answer edit_code" name="q154047:3_answer" id="id_q154047:3_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="1" readonly="">s1=set(input().strip().split())
+s2=set(input().strip().split())
+s3=set(input().strip().split())
+if s3.issubset(s1) and s3.issubset(s2):
+    print('yes')
+    print('set3 is subset of set1 and set2')
+else:
+    print('No')</textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Test</th>
+<th class="header c2" style="" scope="col">Input</th>
+<th class="header c3" style="" scope="col">Expected</th>
+<th class="header c4" style="" scope="col">Got</th>
+<td class="header c5 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">mango apple
+mango orange
+mango</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">yes
+set3 is subset of set1 and set2</pre></td>
+<td class="cell c4" style=""><pre class="tablecell">yes
+set3 is subset of set1 and set2</pre></td>
+<td class="cell c5 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">2</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">mango orange
+banana orange
+grapes</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">No</pre></td>
+<td class="cell c4" style=""><pre class="tablecell">No</pre></td>
+<td class="cell c5 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><div id="question-154047-7" class="que coderunner adaptive_adapted_for_coderunner correct"><div class="info"><h3 class="no">Question <span class="qno">10</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable"><input type="hidden" name="q154047:7_:flagged" value="0"><input type="hidden" value="qaid=1380584&amp;qubaid=154047&amp;qid=411434&amp;slot=7&amp;checksum=2c2410afd89af90c54dbd61b59296092&amp;sesskey=NyraYr2Mas&amp;newstate=" class="questionflagpostdata"><input type="checkbox" id="q154047:7_:flaggedcheckbox" name="q154047:7_:flagged" value="1"><label id="q154047:7_:flaggedlabel" for="q154047:7_:flaggedcheckbox"><img src="./week8 coding_files/unflagged.svg" alt="" class="questionflagimage" id="q154047:7_:flaggedimg"><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q154047:7_:sequencecheck" value="4"><p>You are given an integer tuple <code>nums</code> containing distinct numbers. Your task is to perform a sequence of operations on this tuple until it becomes empty. The operations are defined as follows:</p>
+<ol>
+<li>If the first element of the tuple has the smallest value in the entire tuple, remove it.</li>
+<li>Otherwise, move the first element to the end of the tuple.</li>
+</ol>
+<p>You need to return an integer denoting the number of operations required to make the tuple empty.</p>
+<h3>Constraints</h3>
+<ul>
+<li>The input tuple <code>nums</code> contains distinct integers.</li>
+<li>The operations must be performed using tuples and sets to maintain immutability and efficiency.</li>
+<li>Your function should accept the tuple <code>nums</code> as input and return the total number of operations as an integer.</li>
+</ul>
+<p>Example:</p>
+<p>Input: nums = (3, 4, -1)<br>Output: 5</p>
+<p>Explanation:<br>Operation 1: [3, 4, -1] -&gt; First element is not the smallest, move to the end -&gt; [4, -1, 3]<br>Operation 2: [4, -1, 3] -&gt; First element is not the smallest, move to the end -&gt; [-1, 3, 4]<br>Operation 3: [-1, 3, 4] -&gt; First element is the smallest, remove it -&gt; [3, 4]<br>Operation 4: [3, 4] -&gt; First element is the smallest, remove it -&gt; [4]<br>Operation 5: [4] -&gt; First element is the smallest, remove it -&gt; []<br>Total operations: 5</p><p class="for-example-para">For example:</p><div class="coderunner-examples"><div class="table-responsive"><table class="coderunnerexamples">
+<thead>
+<tr>
+<th class="header c0" style="" scope="col">Test</th>
+<th class="header c1 lastcol" style="" scope="col">Result</th>
+</tr>
+</thead>
+<tbody><tr class="r0 lastrow">
+<td class="cell c0" style=""><pre class="tablecell">print(count_operations((3, 4, -1)))</pre></td>
+<td class="cell c1 lastcol" style=""><pre class="tablecell">5</pre></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="prompt"><label class="answerprompt" for="id_q154047:7_answer">Answer:</label><span class="penaltyregime">(penalty regime: 0 %)</span></div><input type="button" id="q154047:7_-resetbutton" name="q154047:7_-resetbutton" value="Reset answer" class="answer_reset_btn btn btn-secondary" data-reload-text="def count_operations(nums: tuple) -&gt; int:
+    # Your implementation here
+    pass"><textarea class="coderunner-answer edit_code" name="q154047:7_answer" id="id_q154047:7_answer" spellcheck="false" rows="18" data-params="{}" data-globalextra="" data-lang="Python3" data-test0="print(count_operations((3, 4, -1)))" readonly="">def count_operations(nums: tuple):
+    # Your implementation here
+    op=0
+    nums=list(nums)
+    while len(nums):
+        if nums[0]==min(nums):
+            nums.remove(nums[0])
+            op+=1
+        else:
+            t=nums[0]
+            nums.remove(t)
+            nums.append(t)
+            op+=1
+    return op</textarea><div class="im-controls"><div class="d-flex"></div></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="specificfeedback"><div class="coderunner-test-results good"><div class="table-responsive"><table class="coderunner-test-results">
+<thead>
+<tr>
+<td class="header c0" style=""></td>
+<th class="header c1" style="" scope="col">Test</th>
+<th class="header c2" style="" scope="col">Expected</th>
+<th class="header c3" style="" scope="col">Got</th>
+<td class="header c4 lastcol" style=""></td>
+</tr>
+</thead>
+<tbody><tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">print(count_operations((3, 4, -1)))</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">5</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">5</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">print(count_operations((1, 2, 3, 4, 5)))</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">5</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">5</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r1">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">print(count_operations((5, 4, 3, 2, 1)))</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">15</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">15</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r0">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">print(count_operations((42, )))</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">1</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+<tr class="r1 lastrow">
+<td class="cell c0" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+<td class="cell c1" style=""><pre class="tablecell">print(count_operations((-2, 3, -5, 4, 1)))</pre></td>
+<td class="cell c2" style=""><pre class="tablecell">11</pre></td>
+<td class="cell c3" style=""><pre class="tablecell">11</pre></td>
+<td class="cell c4 lastcol" style=""><i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></td>
+</tr>
+</tbody>
+</table>
+</div><p>Passed all tests! &nbsp;<i class="icon fa fa-check text-success fa-fw " title="Correct" role="img" aria-label="Correct"></i></p></div></div></div><div class="im-feedback"><div class="correctness badge correct">Correct</div><div class="gradingdetails">Marks for this submission: 1.00/1.00.</div></div></div></div></div><input type="hidden" name="sesskey" value="NyraYr2Mas"><div class="submitbtns"><input type="submit" class="questionflagsavebutton btn btn-secondary" name="savingflags" value="Save the state of the flags"></div></div></form><div class="submitbtns"><a class="mod_quiz-next-nav" href="http://118.185.187.137/moodle/mod/quiz/view.php?id=1389">Finish review</a></div></div>
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="columnleft  has-blocks ">
+                </div></div></div></div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div></body></html>
